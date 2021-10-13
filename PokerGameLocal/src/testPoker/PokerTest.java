@@ -66,6 +66,9 @@ public class PokerTest {
 		result = poker.isFullHouse(input, 5);
 		assertEquals(false, result);
 	}
+	
+	/* Remove Case 7.
+
 	// Test case 7: n = 5, cards = {"C6", "D6", "H6", "S6", "D7"};
 	@Test
 	public void test66667() {
@@ -74,6 +77,8 @@ public class PokerTest {
 		result = poker.isFullHouse(input, 5);
 		assertEquals(false, result);
 	}
+	*/
+	
 	// Test case 8: n = 5, cards = {"CA", "DX", "HX", "SX", "DK"};
 	@Test
 	public void testAXXXK() {
